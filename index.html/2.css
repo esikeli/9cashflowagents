@@ -1,0 +1,889 @@
+@charset "utf-8";
+
+
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Wellfleet:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+.background-color1-remix {
+    background-color: #333147
+}
+
+svg.background-color1-remix {
+    background-color: transparent;
+    fill: #333147
+}
+
+h6 span.background-color1-remix, h3 span.background-color1-remix {
+    background-color: transparent;
+    color: #333147
+}
+
+.background-color1-remix-color {
+    color: #333147
+}
+
+/* this is the remixed colour of all the paragraph text */
+.paragraph-text-color2-remix {
+    color: #ffffff
+}
+
+/* this is the remixed color of all the headline text */
+.headline-text-color3-remix {
+    color: #f2f2f2
+}
+
+a.headline-text-color3-remix {
+    background-color: #f2f2f2
+}
+
+svg.headline-text-color3-remix {
+    background-color: transparent;
+    fill: #f2f2f2
+}
+
+div.headline-text-color3-remix {
+    background-color: #f2f2f2
+}
+
+section.headline-text-color3-remix {
+    background-color: #f2f2f2
+}
+
+.headline-text-color3-remix-bg {
+    background-color: #f2f2f2
+}
+
+svg.headline-text-color3-remix-bg {
+    background-color: transparent;
+    fill: #f2f2f2
+}
+
+h5 span.headline-text-color3-remix {
+    background-color: #f2f2f2
+}
+
+/* this is the remixed accent color */
+.accent-color4-remix {
+    color: #847c51
+}
+
+svg.accent-color4-remix {
+    background-color: transparent;
+    fill: #847c51
+}
+
+.border-accent-color4-remix {
+    border-bottom: 2px solid#847c51
+}
+
+/* this is the remixed font of the headline text */
+.headline-font1-remix {
+    font-family: Wellfleet, cursive
+}
+
+/* this is the remixed font of the paragraph text */
+.paragraph-font2-remix {
+    font-family: "Open Sans", sans-serif
+}
+
+/* this is the remixed weight of the headline text */
+.headline-weight-remix {
+    font-weight: 600
+}
+
+/* this is the remixed weight of the paragraph text */
+.paragraph-weight-remix {
+    font-weight: 400
+}
+
+/* this is a darker version of the remixed background color */
+.background-color1-remix-darker {
+    background-color: #14131b
+}
+
+svg.background-color1-remix-darker {
+    background-color: transparent;
+    fill: #14131b
+}
+
+/* this is a lighter version of the remixed background color */
+.background-color1-remix-lighter {
+    background-color: #555275
+}
+
+svg.background-color1-remix-lighter {
+    background-color: transparent;
+    fill: #555275
+}
+
+/* this is a darker version of the remixed colour of all the paragraph text */
+.paragraph-text-color2-remix-darker {
+    color: #d9d9d9
+}
+
+section.paragraph-text-color2-remix-darker {
+    background-color: #d9d9d9
+}
+
+/* this is a lighter version of the remixed text color */
+.paragraph-text-color2-remix-lighter {
+    color: #ffffff
+}
+
+/* this is a darker version of the remixed accent color */
+.accent-color4-remix-darker {
+    color: #555034
+}
+
+/* this is a lighter version of the remixed accent color */
+.accent-color4-remix-lighter {
+    color: #aca477
+}
+
+/* this is the opposite of the remixed background color */
+.background-color1-remix-opposite {
+    background-color: #5687d2
+}
+
+svg.background-color1-remix-opposite {
+    background-color: transparent;
+    fill: #5687d2
+}
+
+/* this is the opposite of the remixed colour of all the paragraph text */
+.paragraph-text-color2-remix-opposite {
+    color: #474731
+}
+
+/* this is the opposite of the remixed color of all the headline text */
+.headline-text-color3-remix-opposite {
+    color: #f2f2f2
+}
+
+a.headline-text-color3-remix-opposite {
+    color: #f2f2f2
+}
+
+/* this is the opposite of the remixed accent color */
+.accent-color4-remix-opposite {
+    color: #515985
+}
+
+a.accent-color4-remix-opposite {
+    background-color: #515985;
+    color: #ffffff
+}
+
+a.accent-color4-remix-opposite:hover,
+a.accent-color4-remix-opposite:active {
+    background-color: #343955;
+    color: #ffffff
+}
+
+svg.accent-color4-remix-opposite {
+    background-color: transparent;
+    fill: #515985
+}
+
+/* this is the basic black paragraph text color */
+.basic-black {
+    color: #2d2d2d
+}
+
+svg.basic-black {
+    background-color: transparent;
+    fill: #2d2d2d
+}
+
+div.basic-black,
+section.basic-black {
+    background-color: #2d2d2d;
+    color: transparent
+}
+
+/* this is the basic white paragraph text */
+.basic-white {
+    color: #ffffff
+}
+
+svg.basic-white {
+    background-color: transparent;
+    fill: #ffffff
+}
+
+section.basic-white {
+    background-color: #ffffff;
+    color: transparent
+}
+
+/* Classes from our side */
+
+/* this is the remixed weight of the paragraph text */
+.bold-weight-remix {
+    font-weight: bold
+}
+
+/* this is the basic white background */
+.white-background {
+    background-color: #ffffff
+}
+
+svg.white-background {
+    background-color: transparent;
+    fill: #ffffff
+}
+
+.verticle-align-middle-remix {
+    align-items: center
+}
+
+.accent-color4-background-remix {
+    background-color: #847c51
+}
+
+svg.accent-color4-background-remix {
+    background-color: transparent;
+    fill: #847c51
+}
+
+/* this is the remixed accent color */
+
+/* gradient button for green shade */
+
+a.accent-color4-remix,
+div.accent-color4-remix,
+section.accent-color4-remix {
+    background: #aca477;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #aca477 0%, #555034 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #aca477 0%, #555034 100%);
+    /* Chrome10-25, Safari5.1-6 */
+    background: linear-gradient(135deg, #aca477 0%, #555034 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aca477', endColorstr='#555034', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+a.accent-color4-remix:hover,
+a.accent-color4-remix:active,
+div.accent-color4-remix:hover,
+div.accent-color4-remix:active {
+    background: #555034;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #555034 0%, #aca477 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #555034 0%, #aca477 100%);
+    /* Chrome10-25, Safari5.1-6 */
+    background: linear-gradient(135deg, #555034 0%, #aca477 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#555034', endColorstr='#aca477', GradientType=1)
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+button.accent-color4-remix {
+    display: block;
+    width: 100%;
+    background: #aca477;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #aca477 0%, #555034 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #aca477 0%, #555034 100%);
+    /* Chrome10-25, Safari5.1-6 */
+    background: linear-gradient(135deg, #aca477 0%, #555034 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aca477', endColorstr='#555034', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+button.accent-color4-remix:hover,
+button.accent-color4-remix:active {
+    background: #555034;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #555034 0%, #aca477 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #555034 0%, #aca477 100%);
+    /* Chrome10-25, Safari5.1-6 */
+    background: linear-gradient(135deg, #555034 0%, #aca477 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#555034', endColorstr='#aca477', GradientType=1)
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+.accent-color5 {
+    color: #4ab946
+}
+
+a.accent-color5 {
+    background-color: #4ab946;
+    color: #ffffff
+}
+
+a.accent-color5:hover,
+a.accent-color5:active {
+    background-color: #348131;
+    color: #ffffff
+}
+
+svg.accent-color5 {
+    fill: #4ab946
+}
+
+.accent-color6 {
+    color: #1a6aee
+}
+
+a.accent-color6 {
+    background-color: #1a6aee;
+    color: #ffffff
+}
+
+a.accent-color6:hover,
+a.accent-color6:active {
+    background-color: #0d4baf;
+    color: #ffffff
+}
+
+svg.accent-color6 {
+    fill: #1a6aee
+}
+
+.container.accent-color6 {
+    background-color: #1a6aee
+}
+
+.accent-color7 {
+    color: #eca300
+}
+
+a.accent-color7 {
+    background-color: #eca300;
+    color: #ffffff
+}
+
+a.accent-color7:hover,
+a.accent-color7:active {
+    background-color: #9e6c00;
+    color: #ffffff
+}
+
+svg.accent-color7 {
+    fill: #eca300
+}
+
+.button-font-weight-remix {
+    font-weight: 600
+}
+
+.border-radius-30 {
+    border-radius: 30px
+}
+
+.gradient-background-remix {
+    /* Old browsers */
+    background: #aca477;
+
+    /* FF3.6-15 */
+    background: -moz-linear-gradient(-45deg, #aca477 0%, #555034 100%);
+
+    /* Chrome10-25, Safari5.1-6 */
+    background: -webkit-linear-gradient(-45deg, #aca477 0%, #555034 100%);
+
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(135deg, #aca477 0%, #555034 100%);
+
+    /* IE6-9 fallback on horizontal gradient */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aca477', endColorstr='#555034', GradientType=1)
+}
+
+/* different paddings for top and bottom gaps */
+
+.padding-top-bottom-20-remix {
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+.padding-top-bottom-50-remix {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.padding-top-bottom-5-remix {
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.button-padding-remix {
+    padding: 15px 25px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none !important
+}
+
+.basic-5-10-padding-remix {
+    padding: 5px 10px
+}
+
+/* different margins for top and bottom gaps */
+
+.margin-top-20-remix {
+    margin-top: 20px
+}
+
+.margin-top-bottom-25-remix {
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+
+.margin-top-bottom-15-remix {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+.margin-top-bottom-10-remix {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.margin-bottom-negetive-25-remix {
+    margin-bottom: -25px
+}
+
+.margin-bottom-negetive-15-remix {
+    margin-bottom: -15px
+}
+
+.margin-bottom-negetive-16-remix {
+    margin-bottom: -16px
+}
+
+.margin-top-negetive-15-remix {
+    margin-top: -15px
+}
+
+.margin-bottom-negetive-10-remix {
+    margin-bottom: -10px
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px
+}
+
+.margin-bottom-negetive-6-remix {
+    margin-bottom: -6px
+}
+
+.margin-bottom-10-remix {
+    margin-bottom: 10px
+}
+
+.left-right-margin-15-remix {
+    margin-left: 15px;
+    margin-right: 15px
+}
+
+.verticle-line-remix {
+    height: 50px;
+    background-color: #847c51 width: 4px;
+    margin: 0 auto 20px
+}
+
+.horizontal-middle {
+    justify-content: center
+}
+
+.margin0 {
+    margin-bottom: 0
+}
+
+/* uneccessary borders */
+
+.no-button-border {
+    border: none
+}
+
+*:focus {
+    outline: none
+}
+
+.shape .icon-remix {
+    fill: url(#accent-color4-lighter-darker-gradient) transparent
+}
+
+#accent-color4-lighter-darker-gradient {
+    --color-stop: #aca477;
+    --color-bot: #555034
+}
+
+#background-color1-lighter-darker-gradient {
+    --color-stop: #555275;
+    --color-bot: #14131b
+}
+
+#paragraph-text-color2-lighter-darker-gradient {
+    --color-stop: #ffffff;
+    --color-bot: #d9d9d9
+}
+
+.right-arrow-remix {
+    position: absolute;
+    right: -25px;
+    top: 20%
+}
+
+/* styles for shape divider */
+
+/* triangle shape divider */
+
+.triangle-down-remix {
+    fill: #333147
+}
+
+/* Wave divider */
+
+.wave-divider-remix {
+    fill: #333147
+}
+
+.wave-flip {
+    transform: rotate(-180deg)
+}
+
+/* Gradient box colors (block thirteen) */
+
+.box-gradient-accent-color4-lighter-darker-gradient {
+    /* Old browsers */
+    background: #aca477;
+
+    /* FF3.6-15 */
+    background: -moz-linear-gradient(left, #aca477 0%, #555034 100%);
+
+    /* Chrome10-25, Safari5.1-6 */
+    background: -webkit-linear-gradient(left, #aca477 0%, #555034 100%);
+
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(to right, #aca477 0%, #555034 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aca477', endColorstr='#555034', GradientType=1)
+}
+
+.box-gradient-background-color1-lighter-darker-gradient {
+    /* Old browsers */
+    background: #555275;
+
+    /* FF3.6-15 */
+    background: -moz-linear-gradient(left, #555275 0%, #14131b 100%);
+
+    /* Chrome10-25, Safari5.1-6 */
+    background: -webkit-linear-gradient(left, #555275 0%, #14131b 100%);
+
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(to right, #555275 0%, #14131b 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#555275', endColorstr='#14131b', GradientType=1);
+}
+
+.box-gradient-paragraph-text-color2-lighter-darker-gradient {
+    /* Old browsers */
+    background: #ffffff;
+
+    /* FF3.6-15 */
+    background: -moz-linear-gradient(left, #ffffff 0%, #d9d9d9 100%);
+
+    /* Chrome10-25, Safari5.1-6 */
+    background: -webkit-linear-gradient(left, #ffffff 0%, #d9d9d9 100%);
+
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: linear-gradient(to right, #ffffff 0%, #d9d9d9 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=1)
+}
+
+/* styles for backgrounds */
+
+/* styles for background positions */
+
+.background-position-center-remix {
+    background-position: center
+}
+
+.background-position-top-center-remix {
+    background-position: top center
+}
+
+.background-position-bottom-center-remix {
+    background-position: bottom center
+}
+
+.background-position-top-left-remix {
+    background-position: top left
+}
+
+.background-position-top-right-remix {
+    background-position: top right
+}
+
+.background-position-bottom-left-remix {
+    background-position: top left
+}
+
+.background-position-bottom-right-remix {
+    background-position: top right
+}
+
+/* styles for background size */
+
+.background-size-cover-remix {
+    background-size: cover
+}
+
+.background-size-full-remix {
+    background-size: 100%
+}
+
+.background-size-pattern-cover-remix {
+    background-size: cover
+}
+
+/* styles for background repeat */
+
+.background-repeat-remix {
+    background-repeat: repeat
+}
+
+.background-no-repeat-remix {
+    background-repeat: no-repeat
+}
+
+/* Background Image types */
+
+.background-type-1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left
+}
+
+.background-type-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right
+}
+
+.background-type-3 {
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position: top left
+}
+
+.background-type-4 {
+    background-repeat: repeat;
+    background-position: top left
+}
+
+/* styles for carousel */
+
+.carousel,
+.carousel .carousel-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative
+}
+
+.carousel {
+    width: 100%;
+    z-index: 1
+}
+
+.carousel .carousel-inner {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    touch-action: manipulation;
+    -moz-backface-visibility: hidden
+}
+
+.carousel .carousel-inner:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+
+.carousel .carousel-inner-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0)
+}
+
+.carousel .carousel-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0)
+}
+
+.carousel .carousel-item {
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-touch-callout: none
+}
+
+.carousel .carousel-item img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+
+.carousel .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+.carousel-item {
+    position: relative;
+    display: block;
+    float: none;
+    width: auto;
+    margin-right: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out
+}
+
+.carousel-item > * {
+    transform: scale(.7) !important;
+    transition: .3s
+}
+
+.carousel-item.active > * {
+    transform: scale(.9) !important
+}
+
+.slider_box {
+    overflow: hidden;
+    padding-bottom: 100px
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 11px;
+    border-radius: 100%;
+    background-color: #333147
+}
+
+.carousel-indicators {
+    bottom: -70px
+}
+
+#carousel-wrapper {
+    position: relative;
+    max-width: 900px;
+    margin: auto
+}
+
+/*this is a black version of the remixed accent color*/
+.background-color1-remix-black {
+    background-color: #000000
+}
+
+/*this is a navy blue version of the remixed accent color*/
+.accent-color6-remix-navy-blue {
+    background-color: #1a6aee;
+    display: block;
+    text-align: center;
+    text-decoration: none !important
+}
+
+.floating-button {
+    position: fixed;
+    right: 15px;
+    bottom: 0;
+    background: #80bf59;
+    border-radius: 10px 10px 0 0;
+    z-index: 99
+}
+
+.floating-button a {
+    padding: 10px 20px 5px;
+    color: #000;
+    display: block;
+    max-width: 210px;
+    text-decoration: none !important
+}
+
+.floating-button span {
+    display: block;
+    line-height: 1
+}
+
+.floating-button img {
+    max-width: 100%
+}
+
+.ml1 {
+  font-weight: 900;
+  font-size: 1em;  /* Adjust this to fit your design */
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;  /* Adjust this to fit your design */
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 { top: 0; }
+.ml1 .line2 { bottom: 0; }
+
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.large-svg {
+    max-width: none;
+}
